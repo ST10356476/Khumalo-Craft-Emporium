@@ -24,7 +24,7 @@ namespace Khumalo_Craft_Emporium.Pages
             try
             {
                 // Database connection string (should be stored securely in configuration)
-                string connectionString = "Data Source=st10356476.database.windows.net;Initial Catalog=st1035647;Persist Security Info=True;User ID=AdminSQL-st10356476;Password=Munyai@1";
+                string connectionString = "Your Connection string";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open(); // Open the database connection
