@@ -1,0 +1,153 @@
+﻿@page
+@model Khumalo_Craft_Emporium.Pages.ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Contact Us</title>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <style>
+        /* Container */
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Contact Information */
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        label {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 18px;
+            resize: vertical;
+        }
+
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+            button[type="submit"]:hover {
+                background-color: #555;
+            }
+
+        /* Additional styles */
+        .container > div {
+            margin-bottom: 20px;
+        }
+
+        .container > form > div {
+            margin-bottom: 20px;
+        }
+
+        .container > form > button[type="submit"] {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <p>For inquiries or support, please feel free to reach out to us:</p>
+
+        <div>
+            <h3>Address:</h3>
+            <p>116 Clearwater Road CNR. Clearwater Road &, Glenwood Rd</p>
+            <p>Lynnwood Glen</p>
+            <p>Pretoria, South Africa</p>
+            <p>0081</p>
+        </div>
+
+        <div>
+            <h3>Phone:</h3>
+            <p>+27 (182) 233 3694</p>
+        </div>
+
+        <div>
+            <h3>Email:</h3>
+            <p><a href="mailto:info@khumalocraft.com">info@khumalocraft.com</a></p>
+        </div>
+
+        <form method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

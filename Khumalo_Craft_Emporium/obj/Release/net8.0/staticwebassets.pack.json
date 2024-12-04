@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Khumalo_Craft_Emporium.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Khumalo_Craft_Emporium.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\css\\929f8b70-be94-4155-806c-bea8ed6e96ab.png",
+      "PackagePath": "staticwebassets\\css\\929f8b70-be94-4155-806c-bea8ed6e96ab.png"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\css\\Complete.png",
+      "PackagePath": "staticwebassets\\css\\Complete.png"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\css\\IndexStyle.css",
+      "PackagePath": "staticwebassets\\css\\IndexStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\css\\KhumaloBackground.mp4",
+      "PackagePath": "staticwebassets\\css\\KhumaloBackground.mp4"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\css\\KhumaloLogo.png",
+      "PackagePath": "staticwebassets\\css\\KhumaloLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\css\\b27324da-9c9b-40a9-8d0a-e855a58d99b6.jpg",
+      "PackagePath": "staticwebassets\\css\\b27324da-9c9b-40a9-8d0a-e855a58d99b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\01fafeb3-276b-4e88-a258-09ae9f772ba3.jpg",
+      "PackagePath": "staticwebassets\\img\\01fafeb3-276b-4e88-a258-09ae9f772ba3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\32bb5d64-2b22-43c0-b5f1-1d845473a8e8.jpg",
+      "PackagePath": "staticwebassets\\img\\32bb5d64-2b22-43c0-b5f1-1d845473a8e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\346973ee-97d9-4394-9083-5f9901daa4d9.jpg",
+      "PackagePath": "staticwebassets\\img\\346973ee-97d9-4394-9083-5f9901daa4d9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\4b0b556d-3249-4b37-b928-7cd9b6a02c66.jpg",
+      "PackagePath": "staticwebassets\\img\\4b0b556d-3249-4b37-b928-7cd9b6a02c66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\5898739a-d55e-4f31-883f-f5fe53f2af8d.png",
+      "PackagePath": "staticwebassets\\img\\5898739a-d55e-4f31-883f-f5fe53f2af8d.png"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\929f8b70-be94-4155-806c-bea8ed6e96ab.png",
+      "PackagePath": "staticwebassets\\img\\929f8b70-be94-4155-806c-bea8ed6e96ab.png"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\KhumaloLogo.png",
+      "PackagePath": "staticwebassets\\img\\KhumaloLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\a125e0b5-caf2-414c-9eb1-8b325b272e98.jpg",
+      "PackagePath": "staticwebassets\\img\\a125e0b5-caf2-414c-9eb1-8b325b272e98.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\ad0fde3d-e8b5-42a9-9b90-c3a6f820b77d.jpg",
+      "PackagePath": "staticwebassets\\img\\ad0fde3d-e8b5-42a9-9b90-c3a6f820b77d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\b27324da-9c9b-40a9-8d0a-e855a58d99b6.jpg",
+      "PackagePath": "staticwebassets\\img\\b27324da-9c9b-40a9-8d0a-e855a58d99b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\b2c4abbc-f5ea-4422-b1bc-141535da0bbc.jpg",
+      "PackagePath": "staticwebassets\\img\\b2c4abbc-f5ea-4422-b1bc-141535da0bbc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\b5406953-9b4e-445b-929f-effa876a4856.jpg",
+      "PackagePath": "staticwebassets\\img\\b5406953-9b4e-445b-929f-effa876a4856.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\img\\e98d1d28-05c4-4a6c-b447-24fc729c74f9.jpeg",
+      "PackagePath": "staticwebassets\\img\\e98d1d28-05c4-4a6c-b447-24fc729c74f9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\munya\\source\\repos\\Khumalo_Craft_Emporium\\Khumalo_Craft_Emporium\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Khumalo_Craft_Emporium.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Khumalo_Craft_Emporium.props",
+      "PackagePath": "build\\Khumalo_Craft_Emporium.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Khumalo_Craft_Emporium.props",
+      "PackagePath": "buildMultiTargeting\\Khumalo_Craft_Emporium.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Khumalo_Craft_Emporium.props",
+      "PackagePath": "buildTransitive\\Khumalo_Craft_Emporium.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

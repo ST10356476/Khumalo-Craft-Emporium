@@ -1,0 +1,93 @@
+﻿@page
+@model Khumalo_Craft_Emporium.Pages.CheckoutModel
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-qgMKNDErsJ0vz0/4NdLfeum0E6HWROThhIwVs3JgL1etOg4q+chfpCJr2tkZVlWm1tPjM0QZ1Nr/mzF1plWS5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            color: #007bff; 
+            font-size: 24px;
+            margin-right: 5px;
+        }
+
+        .invoice-details {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+            .invoice-details p {
+                margin-bottom: 5px;
+            }
+
+                .invoice-details p:last-child {
+                    margin-bottom: 0;
+                }
+
+        .total-price {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="~/css/Complete.png" class="img" />
+        <h1>Order Confirmation</h1>
+        <div class="invoice-details">
+            <p>Your order has been confirmed.</p>
+            <p><i class="fas fa-file-invoice icon"></i>Invoice Number: @TempData["InvoiceNumber"]</p>
+            <p><i class="fas fa-money-check-alt icon"></i>Please make payment to the following bank account:</p>
+            <p><i class="fas fa-university icon"></i>Bank Name: ABSA Bank</p>
+            <p><i class="fas fa-credit-card icon"></i>Account Number: 6372839319130</p>
+            <p><i class="fas fa-receipt icon"></i>Reference: Use Invoice Number</p>
+            <p class="total-price"><i class="fas fa-dollar-sign icon"></i>Amount: $@Model.TotalPrice</p>
+        </div>
+    </div>
+</body>
+</html>

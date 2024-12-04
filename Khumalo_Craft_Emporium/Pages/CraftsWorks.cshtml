@@ -1,0 +1,198 @@
+﻿@page
+@model Khumalo_Craft_Emporium.Pages.CraftsWorksModel
+@{
+    ViewData["Title"] = "Craftworks";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .cart {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 30px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .cart h2 {
+                margin-top: 0;
+                margin-bottom: 20px;
+                font-size: 24px;
+                font-weight: bold;
+                color: #666;
+            }
+
+        #cart-items {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            #cart-items li {
+                margin-bottom: 10px;
+                padding: 10px;
+                border-bottom: 1px solid #eee;
+            }
+
+                #cart-items li:last-child {
+                    border-bottom: none;
+                }
+
+        .craftworks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .craftwork {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+            .craftwork img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+        .add-to-cart {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            margin-top: auto;
+        }
+
+            .add-to-cart:hover {
+                background-color: #0056b3;
+            }
+
+        #checkout-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            #checkout-btn:hover {
+                background-color: #218838;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Craft Works</h1>
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <p>Total Price: $<span id="total-price">0.00</span></p>
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </div>
+        <div class="craftworks">
+            @foreach (var craftwork in Model.Craftworks)
+            {
+                <div class="craftwork">
+                    <img src="@craftwork.ImagePath" alt="@craftwork.Name">
+                    <h2>@craftwork.Name</h2>
+                    <p>@craftwork.Description</p>
+                    <p>Price: $@craftwork.Price</p>
+                    <button class="add-to-cart" data-id="@craftwork.Id" data-name="@craftwork.Name" data-price="@craftwork.Price">Add to Cart</button>
+                </div>
+            }
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+            const cartItemsList = document.getElementById('cart-items');
+            const totalPriceSpan = document.getElementById('total-price');
+            const checkoutBtn = document.getElementById('checkout-btn');
+            let totalPrice = 0;
+
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const craftworkId = button.getAttribute('data-id');
+                    const craftworkName = button.getAttribute('data-name');
+                    const craftworkPrice = parseFloat(button.getAttribute('data-price'));
+                    addToCart(craftworkId, craftworkName, craftworkPrice);
+                });
+            });
+
+            function addToCart(craftworkId, craftworkName, craftworkPrice) {
+                console.log(`Adding ${craftworkName} to the cart`);
+
+                const craftworkItem = document.createElement('li');
+                craftworkItem.textContent = `${craftworkName} - $${craftworkPrice.toFixed(2)}`;
+                cartItemsList.appendChild(craftworkItem);
+
+                totalPrice += craftworkPrice;
+                totalPriceSpan.textContent = totalPrice.toFixed(2);
+            }
+
+            checkoutBtn.addEventListener('click', function () {
+                // Get cart items
+                const cartItems = [];
+                document.querySelectorAll('#cart-items li').forEach(item => {
+                    cartItems.push(item.textContent.trim());
+                });
+
+                // Redirect to checkout page with total price and cart items
+                window.location.href = `/Checkout?totalPrice=${totalPrice.toFixed(2)}&cartItems=${JSON.stringify(cartItems)}`;
+            });
+
+        });
+    </script>
+</body>
+</html>

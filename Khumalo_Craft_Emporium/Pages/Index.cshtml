@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page - Khumalo Crafts</title>
+    <link rel="stylesheet" href="~/css/IndexStyle.css" asp-append-version="true" />
+
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="logo-container">
+                <img src="~/css/KhumaloLogo.png" alt="Khumalo Crafts Logo" class="logo">
+            </div>
+            <div class="hero-text">
+                <h1>Welcome to Khumalo Crafts</h1>
+                <p>Explore the beauty of African artistry</p>
+                <a asp-page="./CraftsWorks" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Khumalo Crafts, we celebrate the rich heritage of African craftsmanship. Our handcrafted products reflect the vibrant culture and traditions of Africa.</p>
+            <a asp-page="./About" class="btn about-btn">Read More</a>
+        </div>
+    </section>
+</body>
+</html>
+</html>

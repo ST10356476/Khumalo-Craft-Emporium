@@ -1,0 +1,40 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Khumalo Craft Emporium</title>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <!-- Font Awesome script -->
+    <script src="https://kit.fontawesome.com/f6b1fd857d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <aside>
+        <ul>
+            <li><a asp-page="./Index"><i class="fas fa-home"></i> Home</a></li>
+            <li><a asp-page="./About"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a asp-page="./Contact"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            <li><a asp-page="./CraftsWorks"><i class="fas fa-paint-brush"></i> Our CraftsWork</a></li>
+            <li><a asp-page="./Register"><i class="fas fa-user-plus"></i> Register</a></li>
+            <li><a asp-page="./Login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+            <li><a asp-page="./CraftworkOwner"><i class="fas fa-store-alt"></i> Sell Your Craftwork</a></li>
+        </ul>
+    </aside>
+
+    <div class="content">
+        <video autoplay muted loop id="video-bg">
+            <source src="~/css/KhumaloBackground.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Khumalo Crafts. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
