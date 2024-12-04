@@ -8,7 +8,7 @@ namespace Khumalo_Craft_Emporium.Pages.Clients
     public class LoginModel : PageModel
     {
         // Connection string to the database (should be stored securely in configuration)
-        private readonly string _connectionString = "Data Source=st10356476.database.windows.net;Initial Catalog=st1035647;Persist Security Info=True;User ID=AdminSQL-st10356476;Password=Munyai@1"; // Update with your database connection string
+        private readonly string _connectionString = ""; // Update with your database connection string
 
         // Property to bind the user's email
         [BindProperty]
