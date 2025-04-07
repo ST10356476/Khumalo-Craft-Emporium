@@ -11,7 +11,7 @@ namespace Khumalo_Craft_Emporium.Pages
     public class UploadCraftworkModel : PageModel
     {
         // Connection string to the database (should be stored securely in configuration)
-        private readonly string _connectionString = "Data Source=st10356476.database.windows.net;Initial Catalog=st1035647;User ID=AdminSQL-st10356476;Password=Munyai@1";
+        private readonly string _connectionString = "Your_connectionstring";
 
         // HTTP POST method to handle the upload of a new craftwork
         [HttpPost]
