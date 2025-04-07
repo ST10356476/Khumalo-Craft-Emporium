@@ -6,7 +6,7 @@ namespace Khumalo_Craft_Emporium.Pages.Clients
 {
     public class RegisterModel : PageModel
     {
-        private string connectionString = "Data Source=st10356476.database.windows.net;Initial Catalog=st1035647;User ID=AdminSQL-st10356476;Password=Munyai@1";
+        private string connectionString = "Your_connection_string";
 
      
         public RegisterUser user = new RegisterUser();
